@@ -31,22 +31,12 @@ int main(void)
 
     printf("Radix Sort\n");
     time_test(1, arr1, num[0]);
-    printf("Exchange Sort\n");
-    time_test(5, arr1, num[0]);
-    //printf("Merge Sort\n");
-    //time_test(2, arr1, num[0]);
-    //printf("Quick Sort\n");
-    //time_test(3, arr1, num[0]);
-    //printf("Heap Sort\n");
-    //time_test(4, arr1, num[0]);
-    /*
     time_test(1, arr2, num[1]);
     time_test(1, arr3, num[2]);
     time_test(1, arr4, num[3]);
     time_test(1, arr5, num[4]);
     putchar('\n');
-    */
-    /*
+    
     printf("Merge Sort\n");
     time_test(2, arr1, num[0]);
     time_test(2, arr2, num[1]);
@@ -78,7 +68,7 @@ int main(void)
     time_test(5, arr4, num[3]);
     time_test(5, arr5, num[4]);
     putchar('\n');
-    */
+  
 
     return 0;
 }

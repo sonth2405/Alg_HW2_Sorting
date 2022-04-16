@@ -233,19 +233,14 @@ void time_test(int type_of_sort, int* arr, int num)
 
     for (int i = 0; i < 5; i++)
     {
-        
+        set_rand_arr(arr, num);
         clock_t start, end;
         switch (type_of_sort)
         {
         case 1:
-            set_rand_arr(arr, num);
-            printf("Before\n");
-            Print_arr(arr, 50);
             start = clock();
             radix_sort(arr, 50);
             end = clock();
-            rintf("After\n");
-            Print_arr(arr, num);
             time_arr[i] = (double)(end - start) / CLOCKS_PER_SEC;
             break;
 
